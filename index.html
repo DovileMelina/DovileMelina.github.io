@@ -1,37 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
+
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-    <!-- Bootstrap -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-    <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Kitoks Gyvenimas - Dovilė Mėlianskaitė</title>
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
 
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
 
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-        <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" aria-expanded="false" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Turinys <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Kitoks Gyvenimas</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#intro">Įžanga</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#part-1">Aklumas - didelė paslaptis</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#part-2">Aklas žmogus visada nelaisvas</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#part-3">Be išmaniųjų technologijų nei žingsnio</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#part-4">Didžiausia problema - ne mokslai</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#part-5">Tetras - ne tik darbas</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading" class="text-primary">KITOKS GYVENIMAS</h1>
+                <hr>
+                <p class="text-primary">Dovilė Mėlinauskaitė</p>
+                <a href="#intro" class="btn btn-primary btn-xl page-scroll">Pirmyn!</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="intro">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Gimusi akla</h2>
+                    <hr class="light">
+                    <p>Šiuo metu pasaulyje gyvena apie 39 milijonai aklų žmonių, viena iš jų – Irma, ji regos neteko dar kūdikystėje. Suėjus vos šešiems mėnesiams po gimimo daktarai tėvams pranešė, kad jos akyje – auglys, tad teko jį pašalinti. Po metų vėl blogos naujienos – šįkart auglys kitoje akyje, todėl buvo pašalintas auglys ir kitoje akyje. Tiek Irma, tiek jos mama nesijaudino dėl jos aklumo: „Mama buvo sakiusi, jog visada žinojo, kad aš mokysiuosi, kad man viskas bus gerai ir kad aklumas nėra kažkas, kas užveria visas duris ir galimybes.“</p>
+                    <p>Retinoblastoma – dažniausiai pasitaikantis akių navikas. Šia liga pasaulyje serga maždaug vienas iš 20 tūkstančių naujagimių.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="part-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>AKLUMAS – DIDELĖ PASLAPTIS</h2>
+                    <p>Sulaukusi ketverių metų Irma turėjo palikti gimtąjį Joniškį, ji  kurį laiką viena gyveno internatiniame Petro Avižonio regos centro darželyje Šiauliuose, po kurio laiko į Šiaulius atsikėlė ir jos tėvai. Mergaitei jokių problemų darželyje nekildavo – ji buvo iniciatyvi, organizuodavo žaidimus, lengvai susirasdavo draugų. Tuo metu ji nesuprato, kad yra akla, nematymas jai buvo didelė paslaptis. Iš vaikystės prisiminimų ji atsimena kelias gyvenimo nuotrupas, tarkim, kad ji ištikrųjų mato, tik kiti to nesupranta. „Aš darydavau viską ką ir kiti vaikai: mes kartu važinėdavom dviračiais, laipiodavom po medžius, karstydavomės, kartais tik man neleisdavo važiuoti dviračiu. Aš dažnai bandydavau žiūrėti, nes žinojau, kad akys yra skirtos žiūrėjimui, aš žinojau, jog kai užaugsiu – matysiu“, – dalinasi prisiminimais Irma.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-12">
+                    <a href="img/portfolio/fullsize/01.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/01.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Po darželio Irma su šeima persikraustė į Kauną, kuriame ji pradėjo eitį į Kauno aklųjų ir silpnaregių ugdymo centrą, čia ji pradėjo suprasti kas yra aklumas. Po dešimtos klasės ji turėjo nuspręsti ar eiti į bendro lavinimo mokyklą ir integruotis su matančiais mokiniais, ar atvykti į Vilnių ir toliau mokytis aklųjų mokykloj, tad ji pasirinko viena persikelti gyventi į Vilnių, nes manė, kad taip jai bus naudingiau dėl mokslų – aklųjų mokyklose mažiau mokinių klasėse, tad, anot Irmos, mokiniai iš mokytojų gauna daugiau dėmesio, geriau pasiruošia egzaminams. Mergina taip pat juokdamasi prasitaria, kad galbūt kita priežastis, kodėl ji persikraustė į Vilnių, buvo nepriklausomybės troškimas, noras gyventi atskirai nuo tėvų: „Aš visada norėjau viena išvažiuoti į kitą miestą, įrodyti visiems, kad aš viena pati galiu gyventi, nes mano aklumas visiškai nėra negalia ir tik paskui supratau, kad aš turiu aklumą ir man reikia jį pripažinti.“</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-12">
+                    <a href="img/portfolio/fullsize/02.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/02.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/N9MGRCgVHJk?controls=2&amp;iv_load_policy=3" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="part-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>AKLAS ŽMOGUS VISADA NELAISVAS</h2>
+                    <p>Apsigyvenusi viena Irma vis mąstydavo kaip atliks paprasčiausius darbus, bet laikui bėgant suprato, kad didžiąją dalį darbų tikrai įmanoma padaryti ir nesinaudojant rega: „Visada galvojau, kad kaip aš kepsiu, neišmoksiu turbūt niekada kepti, bet, aišku, kepti išmokau ir tai nėra sudėtinga.“</p>
+                    <p>Nors mergina visada stengiasi išlikti optimistiška ir neliūdėti, bet jos, kaip ir visų žmonių gyvenimuose, netrūksta liūdesio, bet ne todėl, kad ji nemato, o dėl to, kad yra priklausoma nuo kitų žmonių: „Aš labai jautriai reaguoju kai suvokiu, kad ko nors negaliu padaryti viena be kieno nors pagalbos.“</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-12">
+                    <a href="img/portfolio/fullsize/03.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/03.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/mtPexi0E3mk?controls=2&amp;iv_load_policy=3" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="part-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>BE IŠMANIŲJŲ TECHNOLOGIJŲ NĖ ŽINGSNIO</h2>
+                    <p>Aklai merginai būtų labai sunku gyventi be brailio abecėlės, ypač be kompiuterio ar mobiliojo telefono. Ji sako, kad naudojimasis kompiuterio ekrano skaitymo programomis labai palengvina gyvenimą – jomis galima naršyti internete, nusipikti daiktų arba maisto, Irma netgi mokosi užsienio kalbas internetu. „Tai yra langas į socializaciją, į komunikaciją su pasauliu. Per kompiuterį aš bendrauju su viso pasaulio neregiais, galim keistis informacija, patarti arba pakonsultuoti vienas kitą“, – priduria Irma. Telefonas taip pat praverčia kasdienėse situacijose, pavyzdžiui, naudodamasi specialiai akliesiems skirta programėle ji taip pat gali skaityti naujienas telefone, rašyti žinutes ar viena keliauti autobusu ir nepasiklysti.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/04.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/04.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/05.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/05.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/06.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/06.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-6">
+                    <a href="img/portfolio/fullsize/07.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/07.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="img/portfolio/fullsize/08.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/08.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Ne visada ekrano skaitymo programos padeda, su jomis nutinka įvairių nemalonumų, pavyzdžiui, jos nepasileidžia, užstringa arba neperskaito teksto. Tokiu atveju Irma labai susinervina: „Būna kartais, programa nepasileidžia, kažko nemoki padaryti, ieškai, susinervini baisiausiai, pradedi rėkaut, keiktis, nes nepavyksta, neišeina, nesupranti kaip susitvarkyt tą programą, klausinėji draugų, skambini jiems.“</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="part-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>DIDŽIAUSIA PROBLEMA – NE MOKSLAI</h2>
+                    <p>Po mokyklos baigimo Irma įstojo į Lietuvos edukologijos universitetą, anglų – prancūzų filologijos studijas. Irma teigia, kad širdy ji – tikra filologė, o kalbų mokymasis ir dabar jai yra hobis bei savirealizacija.</p>
+                    <p>Merginai didžiausia problema studijų laikotrapiu buvo ne mokslai, o jausmas, kad esi kitokia – ji pirmąkart buvo vienintelė negalę turinti mergina sveikų kursiokų apsupty: „Aš atėjau po aklųjų mokyklos, aš buvau vienintelė nematanti ir tai visada pritraukia labai daug dėmesio, o jis vargina. Jei aš būčiau pripratus būti kitokia, tai man būtų buvę geriau.” Anot Irmos, žmonės universitete visada ją priimdavo, nebuvo tokių atvejų, kad šaipytųsi ar vengtų. Bet mergina vistiek iš aplinkinių sulaukdavo nuostabos ir klausimų apie paprastus dalykus, pavyzdžiui, kaip ji paeina, kaip orientuojasi aplinkoje.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-12">
+                    <a href="img/portfolio/fullsize/09.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/09.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/B_Z96l4c-vc?controls=2&amp;iv_load_policy=3" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Studijuodama Irma stengėsi būti kuo įmanoma savarankiškesnė, ji daug ką darė pati, nors kartais reikėdavo ir asmeninio asistento pagalbos, kurį galima rasti universitete. Aklai merginai net ir pats paprasčiausias darbas užtrukdavo žymiai ilgiau nei matančiam žmogui, pavyzdžiui, norėdama perskaityti knygą, ji turėdavo ją pasiimti iš bibliotekos, nusiskenuoti į skaitmeninį formatą, vėliau nuskenuotą medžiagą parodyti asistentui, kad jis patikrintų. Asistentas perskaitydavo nuskenuotą tekstą kompiuteryje ir palygindavo su tuo, kuris buvo nuskenuotas. Padėjėjas tikrindamas tekstą taip pat turėdavo atkreipti dėmesį į lenteles, jas reikėdavo perrašyti – iš lentelių išimti tekstą ir jį parašyti eilute, nes kitu atveju Irmos skaitymo programa negalėtų jos perskaityti. Po viso šito darbo studentė grįždavo namo ir per specialią programą paleisdavo skenuotą tekstą, kurį programa perskaitydavo.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/uaJT-qCcLCc?controls=2&amp;iv_load_policy=3" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Irma anglų – prancūzų filologijos studijų nepabaigė – ji sustabdė studijas, nes nesugebėjo suderinti dviejų darbų – studijų ir tuo pačiu metu vaidybos neįgaliųjų „Naujajame teatre“. Renkantis tarp savo dviejų aistrų Irmai didelių dvejonių nebuvo, ji jau seniai troško vaidinti teatre, o studijos reikalavo labai daug laiko: „Mano tėvai žinojo apie mano svajonę, nors galbūt nelaikė jos rimta“, – prasitaria Irma ir šypsodamasi nuklysta į mokyklos prisiminimus, kuomet per paskutinio skambučio šventę direktorė jos mamai pasakė apie dukters svajonę, – „Mano mamą pasikvietė direktorė ir pasakė: „Jūs girdėjot, kad jūsų vaikas išprotėjo? Palikau rimtą merginą, kuri norėjo studijuoti teisę, o grįžau ir atsitiko nesąmonė, ji sako, kad nebestudijuos teisės, o stos į vaidybą.“</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-12 img-group">
+                    <a href="img/portfolio/fullsize/10.jpg" class="portfolio-box" id="img-horizontal"><img src="img/portfolio/thumbnails/10.jpg" class="img-responsive" alt=""></a>
+                    <a href="img/portfolio/fullsize/11.jpg" class="portfolio-box" id="img-vertical"><img src="img/portfolio/thumbnails/11.jpg" class="img-responsive" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="part-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>TEATRAS – NE TIK DARBAS</h2>
+                    <p>Studijuodama Lietuvos edukologijos universitete Irmą į „Naująjį“ teatrą pakvietė jos draugė, kuri žinojo apie jos svajonę studijuoti aktorystės meną. Ši lemtinga akimirka pakeitė jos gyvenimą – pirmas darbas tapo gyvenimo pašaukimu. Nors dabar mergina džiaugiasi teatru ir teigia, kad teatras yra jos hobis ir vieta, kurioje ji surado geriausius draugus, šeimą bei atrado antrus namus, bet pačioje pradžioje vos tik atėjus mokytis teatro meno, jos prisiminimai nėra tokie džiugūs kaip dabar.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/XuCson5kY2w?controls=2&amp;iv_load_policy=3" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Pradžioj vaidinant merginai labai sunkiai sekėsi orientuotis aplinkoje: ji dažnai užkliudydavo arba nuversdavo joje esančius daiktus, kartais ko nors nerasdavo – kartą užkulsiuose pasiklydo ir nerado savo batų, tad teko net vieną sceną praleisti. Taip pat Irmai buvo užsidegę plaukai kai ji per arti pasilenkė prie žvakės, bet nesutrikusi pati su rankomis liepsną užgesino. Prisimindama apie mažas nelaimes nutikusias scenoje dėl jos aklumo Irma tarsteli: „Galbūt žiūrovas net nepastebi, bet aš viduje iškart save graužiu: kaip aš taip galėjau? Priekaištauju sau, kad neatidirbau ir neišmokau vaidinti.“</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/12.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/12.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/13.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/13.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/14.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/14.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/15.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/15.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/16.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/16.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-4">
+                    <a href="img/portfolio/fullsize/17.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/17.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+            <div class="row no-gutter popup-gallery">
+                <div class="col-sm-6">
+                    <a href="img/portfolio/fullsize/18.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/18.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+                <div class="col-sm-6">
+                    <a href="img/portfolio/fullsize/19.jpg" class="portfolio-box">
+                        <img src="img/portfolio/thumbnails/19.jpg" class="img-responsive" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-primary no-padding">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-sm-12">
+                    <iframe class="video" src="https://www.youtube.com/embed/JKcVmOHMWBE?controls=2&amp;iv_load_policy=3" frameborder="0" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <p>Dabar Irma su šypsena veide teigia, kad nors dirbti ir mokytis vaidybos meno reikėjo ilgai ir sunkiai, bet šiuo metu scenoje ji jaučiasi kur kas drąsiau, juo labiau, kad per visus spektaklius jai orientuotis scenoje padeda partneris, o prisiminimais apie smulkias nelaimes dalinasi su juoku: „Anksčiau grįždavau, verkdavau ir sakydavau: daugiau aš nebeisiu vaidinti, kam man ten vaidinti, jei aš nematau.“ Atradusi teatrą savo gyvenime ji tikisi ateityje ir toliau vaidinti bei džiuginti visus žiūrovus, ypač jaunuosius darželiuose.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-grey">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">At Your Service</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-user text-primary sr-icons"></i>
+                        <h3>Dovilė Mėlinauskaitė</h3>
+                        <p class="text-muted">Autorė</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-frown-o text-primary sr-icons"></i>
+                        <h3>Arnas Rutkauskas</h3>
+                        <p class="text-muted">Programuotojas</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-group text-primary sr-icons"></i>
+                        <h3>„Naujasis teatras"</h3>
+                        <p class="text-muted">Kolektyvas</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-music text-primary sr-icons"></i>
+                        <h3>Muzika</h3>
+                        <p class="text-muted">Bensound, <a href="www.bensound.com" target="_blank">www.bensound.com</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <aside class="bg-dark">
+        <div class="container text-center">
+            <div class="call-to-action">
+                <h2>Perpublikuoti informaciją iš šio puslapio be autorės sutikimo yra griežtai draudžiama.</h2>
+                <p>Jei norint naudoti šiame puslapyje pateikiamą informaciją, fotografijas ar video medžiagą, privaloma gauti raštišką leidimą.</p>
+                <a href="mailto:melinauskaitedovile@gmail.com" class="btn btn-default btn-xl sr-button">Susisiekti!</a>
+            </div>
+        </div>
+    </aside>
+
+    <section class="bg-grey footer">
+        <footer>
+            <p class="text-center text-small">&copy; 2016, Rutkauskienė Dovilė</p>
+        </footer>
+    </section>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.min.js"></script>
+
+</body>
+
 </html>
